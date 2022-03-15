@@ -14,7 +14,7 @@
   },
   "scripts": {
     "native": "cd apps/expo && expo start",
-    "web": "yarn --cwd apps/next next",
-    "build": "yarn --cwd apps/next build"
+    "web": "cd apps/next && yarn next",
+    "build": "cd apps/next && yarn build"
   }
 }
